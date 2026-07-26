@@ -1,1 +1,29 @@
-NEXT_PUBLIC_FIREBASE_CONFIG={"apiKey":"AIzaSyDhyjX1tP3twF-iWBqVcmU1FbpOx7kC-2Y","authDomain":"student-privilege-card-india.firebaseapp.com","databaseURL":"https://student-privilege-card-india-default-rtdb.firebaseio.com","projectId":"student-privilege-card-india","storageBucket":"student-privilege-card-india.firebasestorage.app","messagingSenderId":"397615159205","appId":"1:397615159205:web:7333cbe846ab2b1849ba4c","measurementId":"G-57LWTSZCPZ"}
+{
+  "name": "spc-student-privilege-card",
+  "version": "2.5.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^15.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "lucide-react": "^0.474.0",
+    "firebase": "^11.6.1",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.5.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "@types/node": "^22.10.10",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "autoprefixer": "^10.4.20"
+  }
+}
